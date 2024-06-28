@@ -1,13 +1,13 @@
 # 🏠🏢 Immoweb Property Data Scraper
 
 <p align="center">
-  <img src="title.jpg" style="max-width: 35%; height: auto;">
+  <img src="./images/title.jpg" style="max-width: 35%; height: auto;">
 </p>
 
 ## 📜 Description
 
 <p align="center">
-  <img src="title1.PNG" style="max-width: 15%; height: auto;">
+  <img src="./images/title1.PNG" style="max-width: 15%; height: auto;">
 </p>
 
 - This project involves a web scraper that collects property data from Immoweb, a leading real estate website in Belgium.
@@ -144,7 +144,7 @@ The script will:
 ## 🖼️ Visuals
 
 <p align="center">
-  <img src="2.jpg" style="max-width: 65%; height: auto;">
+  <img src="./images/2.jpg" style="max-width: 65%; height: auto;">
 </p>
 
 ## 👥 Contributors
@@ -166,5 +166,5 @@ The script will:
 - `Day 5`: Documentation and final testing.
 
 <p align="center">
-  <img src="3.jpg" style="max-width: 55%; height: auto;">
+  <img src="./images/3.jpg" style="max-width: 55%; height: auto;">
 </p>
