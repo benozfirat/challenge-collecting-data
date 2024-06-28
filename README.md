@@ -1,4 +1,4 @@
-# 🏠🏢 Immoweb Property Data Scraper
+# 🏠🏢 Immo Property Data Scraper
 
 <p align="center">
   <img src="./images/title.jpg" style="max-width: 35%; height: auto;">
@@ -7,18 +7,19 @@
 ## 📜 Description
 
 <p align="center">
-  <img src="./images/title1.PNG" style="max-width: 15%; height: auto;">
+  <img src="./images/01-house.png" style="max-width: 25%; height: auto;">
 </p>
 
-- This project involves a web scraper that collects property data from Immoweb, a leading real estate website in Belgium.
+- This project involves a web scraper that collects property data from a leading real estate website in Belgium.
 
-- The scraper extracts detailed information about properties listed for sale, including their location, type, price, number of rooms, and additional features such as garden, terrace, swimming pool, and more.
+- The scraper extracts detailed information about properties listed on the website, including their location, type, price, number of rooms, and additional features such as garden, terrace, swimming pool, and more.
 
 - The data is then compiled into a CSV file for further analysis or use.
 
 ## 📦 Installation
 
-- To run this project, you need to have Python installed on your machine. You also need the following Python libraries:
+- To run this project, you need to have Python installed on your machine.
+  You also need the following Python libraries:
 
 - 🌐 `requests`
 
@@ -32,10 +33,10 @@
 
 ### 1. 📥 Setup and Run the Scraper
 
-- Save the Python script provided in this README to a file, ` immoweb_scraper.py.`
+- Save the Python script provided in this README to a file, ` scrap_immo.py.`
 
 - Run the script to start scraping data from Immoweb:
-  `python immoweb_scraper.py`
+  `immo_scraper.py`
 
 ### 2. 📊 Collecting Data
 
@@ -49,7 +50,7 @@ The script will:
 
 - Convert the list to a pandas DataFrame.
 
-- Save the DataFrame to a CSV file `immoweb_properties.csv`
+- Save the DataFrame to a CSV file `immo_properties_final.csv`
 
 ### 3. 🔄 📝 Handling Missing Values
 
@@ -107,7 +108,7 @@ The script will:
 
 - 🛒 `get_whatSale(parsed)`: Determines the sale type (public sale, notary sale, interactive sale).
 
-- 🛏️ `get_NbrRooms(parsed)`: Extracts the number of rooms.
+- 🛏️ `get_NbrRooms(parsed)`: Extracts the number of bedrooms.
 
 - 📏 `get_livingArea(parsed)`: Extracts the living area.
 
@@ -144,7 +145,7 @@ The script will:
 ## 🖼️ Visuals
 
 <p align="center">
-  <img src="./images/2.jpg" style="max-width: 65%; height: auto;">
+  <img src="./images/1.jpg" style="max-width: 40%; height: auto;">
 </p>
 
 ## 👥 Contributors
