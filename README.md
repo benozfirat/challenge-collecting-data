@@ -134,8 +134,6 @@ The script will:
 
 - 🌊 `is_inFloodZone(parsed)`: Checks if the property is in a flood zone.
 
-- 🛏️ `get_nbrBedrooms(parsed)`: Extracts the number of bedrooms.
-
 - 📋 `get_allDatas(parsed)`: Collects all the extracted data points into a single dictionary.
 
 - 🔍 `get_page_link(soup)`: Extracts links to individual property pages from the search results page.
